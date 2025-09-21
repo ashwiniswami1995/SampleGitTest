@@ -9,6 +9,7 @@ public class HardTest {
 		// TODO Auto-generated method stub
 String s1 ="ash";
 String s2 ="ash";
+System.out.println("Hello");
 
 		//Assert.assertEquals("ash", "ash1" ,"not equals");
 		//Assert.assertNotEquals("ash1", "ash1" ," equals");
