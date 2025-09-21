@@ -12,7 +12,7 @@ public class softtest {
 		System.out.println("Step 2");
 		soft.assertEquals("ash", "ash2", "not equal");
 		System.out.println("Step 3");
-		soft.assertNotNull(null, "not equal");
+		soft.assertNull(null, "not equal");
 
 		// Must call at the end, otherwise failures won't be reported
 		soft.assertAll();
